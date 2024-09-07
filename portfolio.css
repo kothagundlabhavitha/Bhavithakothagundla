@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav h1 {
+    float: left;
+    margin: 0;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#home {
+    background: white;
+    color: #333;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#home h2 span {
+    color: #1f1e1e;
+}
+
+/* About Section */
+#about {
+    background: #000000;
+    padding: 50px 0;
+    text-align: center;
+    color: #ddd;
+}
+
+/* Skills Section */
+#skills {
+    background: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Projects Section */
+#projects {
+    background: #0d1010;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 1200px;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #110d0d;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
